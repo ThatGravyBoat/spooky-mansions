@@ -1,0 +1,441 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:saddle",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 15
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_golden_apple",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_otherside",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_13",
+                    "weight": 15
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_cat",
+                    "weight": 15
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:name_tag",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_horse_armor",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_horse_armor",
+                    "weight": 15
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_horse_armor",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "options": "#minecraft:on_random_loot"
+                        }
+                    ],
+                    "name": "minecraft:book",
+                    "weight": 10
+                }
+            ],
+            "rolls": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+            }
+        },
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 4.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:iron_ingot",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 4.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:gold_ingot",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bread",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 4.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:wheat",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bucket",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 4.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:redstone",
+                    "weight": 15
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 4.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:coal",
+                    "weight": 15
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 4.0,
+                                "min": 2.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:melon_seeds",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 4.0,
+                                "min": 2.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:pumpkin_seeds",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 4.0,
+                                "min": 2.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:beetroot_seeds",
+                    "weight": 10
+                }
+            ],
+            "rolls": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+            }
+        },
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 8.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:bone",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 8.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:gunpowder",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 8.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:rotten_flesh",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 8.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:string",
+                    "weight": 10
+                }
+            ],
+            "rolls": 3.0
+        },
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "spookytrinkets:polaroid",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "components":  {
+                                "spookytrinkets:camera_picture": {
+                                    "data": "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",
+                                    "id": "6e610987-fbff-4625-bf89-0c157ad2a4aa"
+                                }
+                            },
+                            "function": "minecraft:set_components"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spookytrinkets:polaroid",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "components":  {
+                                "spookytrinkets:camera_picture": {
+                                    "data": "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",
+                                    "id": "f4ccc545-a684-48c2-a201-6a8518e334ee"
+                                }
+                            },
+                            "function": "minecraft:set_components"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spookytrinkets:devil_fruit",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "components":  {
+                                "food": {
+                                    "saturation": 0,
+                                    "nutrition": 0,
+                                    "can_always_eat": true,
+                                    "effects": [
+                                        {
+                                            "effect": {
+                                                "id": "spookytrinkets:drowning",
+                                                "duration": 72000,
+                                                "show_icon": false
+                                            }
+                                        },
+                                        {
+                                            "effect": {
+                                                "id": "spookytrinkets:reaching",
+                                                "duration": 72000
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "function": "minecraft:set_components"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spookytrinkets:devil_fruit",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "components":  {
+                                "food": {
+                                    "saturation": 0,
+                                    "nutrition": 0,
+                                    "can_always_eat": true,
+                                    "effects": [
+                                        {
+                                            "effect": {
+                                                "id": "spookytrinkets:undead",
+                                                "duration": 72000,
+                                                "show_icon": false
+                                            }
+                                        },
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:health_boost",
+                                                "duration": 72000,
+                                                "amplifier": 4
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "function": "minecraft:set_components"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spookytrinkets:devil_fruit",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "components":  {
+                                "food": {
+                                    "saturation": 0,
+                                    "nutrition": 0,
+                                    "can_always_eat": true,
+                                    "effects": [
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:weakness",
+                                                "duration": 72000,
+                                                "show_icon": false
+                                            }
+                                        },
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:haste",
+                                                "duration": 72000,
+                                                "amplifier": 2
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "function": "minecraft:set_components"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spookytrinkets:voodoo_doll",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spookytrinkets:voodoo_doll",
+                    "weight": 1
+                }
+            ],
+            "rolls": 1.0
+        }
+    ],
+    "random_sequence": "spookytrinkets:chests/witch_house"
+}

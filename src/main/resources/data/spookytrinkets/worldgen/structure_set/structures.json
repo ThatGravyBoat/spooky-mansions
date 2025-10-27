@@ -1,0 +1,40 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "exclusion_zone": {
+            "chunk_count": 10,
+            "other_set": "minecraft:villages"
+        },
+        "frequency": 0.2,
+        "frequency_reduction_method": "legacy_type_1",
+        "salt": 207882856,
+        "separation": 8,
+        "spacing": 32
+    },
+    "structures": [
+        {
+            "structure": "spookytrinkets:witch_house",
+            "weight": 1
+        },
+        {
+            "structure": "spookytrinkets:dead_stump_0",
+            "weight": 1
+        },
+        {
+            "structure": "spookytrinkets:dead_stump_1",
+            "weight": 1
+        },
+        {
+            "structure": "spookytrinkets:horse_statue",
+            "weight": 1
+        },
+        {
+            "structure": "spookytrinkets:spider_cocoon",
+            "weight": 1
+        },
+        {
+            "structure": "spookytrinkets:fallen_sword",
+            "weight": 1
+        }
+    ]
+}

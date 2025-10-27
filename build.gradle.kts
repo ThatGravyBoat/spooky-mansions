@@ -13,7 +13,7 @@ repositories {
 }
 
 base {
-    archivesName = "spooky-mansions"
+    archivesName = "spooky-trinkets"
 }
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
